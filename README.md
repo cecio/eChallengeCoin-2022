@@ -37,13 +37,17 @@ In some way it's easier, since you have a row with marked connection ready to be
 
 <img src="https://github.com/cecio/eChallengeCoin-2022/blob/main/Pictures/connection.jpg" alt="Connections" height="75%" width="75%"/>
 
+- RED: VCC
+- BLACK: GROUND
+- GREEN: UPDI
+
 ## Step 2: dumping EEPROM and FLASH
 
 **WARNING**: *before following these steps, I suggest to remove the battery from the eChallengeCoin. And, as a general rule, if you do something wrong, you may brick/destroy your boards. Be careful, you are responsible of your actions!*
 
-I started to look around in order to find a way to interface with `UPDI` and I stumbled into this project:  [jtag2updi](https://github.com/ElTangas/jtag2updi)
+I used the same project used for 2021 version:  [jtag2updi](https://github.com/ElTangas/jtag2updi)
 
-Great! It looks like I can turn any **Arduino Uno** into a `UPDI` interface with few mods.
+You can turn any **Arduino Uno** into a `UPDI` interface with few mods.
 
 To do it, just follow these few steps:
 
@@ -63,7 +67,7 @@ To do it, just follow these few steps:
   - *red* pad to **Arduino** 3.3v
   - *green* pad to Arduino PIN 6 (with resistor)
 
-  <img src="https://github.com/cecio/eChallengeCoin-2021/blob/main/Pictures/Back_2.jpg" alt="Connections" height="45%" width="45%"/>
+  <img src="https://github.com/cecio/eChallengeCoin-2022/blob/main/Pictures/connection.jpg" alt="Connections" height="45%" width="45%"/>
 
 - connect **Arduino** to your PC
 
@@ -83,7 +87,7 @@ To do it, just follow these few steps:
 
 ## Step 3: the analysis
 
-
+All, from this point, is pretty much equal to the [2021](https://github.com/cecio/eChallengeCoin-2021) version, so you can have a look to that guide to get the all the info you need ;-).
 
 ## Wrap up
 
