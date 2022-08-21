@@ -61,7 +61,7 @@ To do it, just follow these few steps:
 
   <img src="https://github.com/cecio/eChallengeCoin-2022/blob/main/Pictures/arduino_components.jpg" alt="Components" height="75%" width="75%"/>
 
-- it's time to connect the **Arduino** to the **Coin**. You can use alligator clips (see picture below):
+- it's time to connect the **Arduino** to the **Coin**:
 
   - *black* pad to **Arduino** GND
   - *red* pad to **Arduino** 3.3v
@@ -69,9 +69,11 @@ To do it, just follow these few steps:
 
   <img src="https://github.com/cecio/eChallengeCoin-2022/blob/main/Pictures/connection.jpg" alt="Connections" height="45%" width="45%"/>
 
-- connect **Arduino** to your PC. Connecting the `UPDI` PAD may be a bit difficult. I used a probe and some 3D printed parts:
+  Connecting the `UPDI` PAD may be a bit difficult. I used a probe and some 3D printed parts:
 
   <img src="https://github.com/cecio/eChallengeCoin-2022/blob/main/Pictures/table_mini.jpg" alt="Connections" height="50%" width="50%"/>
+
+- connect **Arduino** to your PC. 
 
 - copy the `avrdude.conf` from `jtag2updi` repository to your local folder
 
