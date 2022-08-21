@@ -69,7 +69,9 @@ To do it, just follow these few steps:
 
   <img src="https://github.com/cecio/eChallengeCoin-2022/blob/main/Pictures/connection.jpg" alt="Connections" height="45%" width="45%"/>
 
-- connect **Arduino** to your PC
+- connect **Arduino** to your PC. Connecting the `UPDI` PAD may be a bit difficult. I used a probe and some 3D printed parts:
+
+  <img src="https://github.com/cecio/eChallengeCoin-2022/blob/main/Pictures/table_mini.jpg" alt="Connections" height="100%" width="100%"/>
 
 - copy the `avrdude.conf` from `jtag2updi` repository to your local folder
 
