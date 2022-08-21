@@ -27,15 +27,15 @@ To expose the juicy part, carefully remove the 3D printed part on the back. Ther
 
 We are interested in the MCU because the first thing that we need to do is to try to dump the firmware which, in this kind of MCU, is stored in the flash of the MCU itself. By reading the [DataSheet](http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega4808-4809-Data-Sheet-DS40002173A.pdf) you can have an idea of the features.
 
-As you can see the board exposes the PINs/interfaces on the edge of the coin (let's call them PADs). So, since for the 2020 version I used a SPI connection, I started looking for the same, but this time things looks different: the 2021 version has more "Touch" PADs and fewer unlabelled parts on the border (only one!).
+As you can see the board exposes the PINs/interfaces on the edge of the coin (let's call them PADs). The 2020 version used a SPI connection but the 2021 used a different connection: `UPDI`
 
-A deeper look into the `ATmega4809` DataSheet revealed me an interesting thing: this MCU has a so called `Single-pin Unified Program Debug Interface (UPDI)` mapped on PIN 41:
+`UPDI` is a Microchip proprietary interface for external programming and on-chip debugging of a device.
 
-<img src="https://github.com/cecio/eChallengeCoin-2021/blob/main/Pictures/4809_pinout.png" alt="Pinout" height="75%" width="75%"/>
+Assuming that `2022` version had the same type of interface, I started to look for the new mapping, since this time all the PADs are used for the challenges. 
 
-and guess what? With a multimeter I mapped this pin exactly to the only unlabelled PAD! 
+In some way it's easier, since you have a row with marked connection ready to be used...but the `UPDI` it's a little more difficult to reach. Anyway, this is the new mapping: 
 
-`UPDI` is a Microchip proprietary interface for external programming and on-chip debugging of a device. Very interesting! So, let me check if I found the way...
+<img src="https://github.com/cecio/eChallengeCoin-2022/blob/main/Pictures/connection.jpg" alt="Connections" height="75%" width="75%"/>
 
 ## Step 2: dumping EEPROM and FLASH
 
