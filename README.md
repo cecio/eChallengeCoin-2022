@@ -59,7 +59,7 @@ To do it, just follow these few steps:
 
 - now place some components on the **Arduino** (disconnect it before):
 
-  <img src="https://github.com/cecio/eChallengeCoin-2021/blob/main/Pictures/arduino_components.jpg" alt="Components" height="75%" width="75%"/>
+  <img src="https://github.com/cecio/eChallengeCoin-2022/blob/main/Pictures/arduino_components.jpg" alt="Components" height="75%" width="75%"/>
 
 - it's time to connect the **Arduino** to the **Coin**. You can use alligator clips (see picture below):
 
