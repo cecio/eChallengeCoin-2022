@@ -87,7 +87,7 @@ To do it, just follow these few steps:
 
 ## Step 3: the analysis
 
-All, from this point, is pretty much equal to the [2021](https://github.com/cecio/eChallengeCoin-2021) version, so you can have a look to that guide to get the all the info you need ;-).
+All, from this point, is pretty much equal to the [2021](https://github.com/cecio/eChallengeCoin-2021) version, so you can have a look to `Step 3` of  that guide to get the all the info you need ;-).
 
 ## Wrap up
 
